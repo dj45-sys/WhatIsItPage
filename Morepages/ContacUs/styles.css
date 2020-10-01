@@ -1,0 +1,89 @@
+
+/*Imports*/
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+/*Universal Styles*/
+
+body{
+  margin:0;
+  padding:0;
+  background:#dedede;
+}
+
+/*Text*/
+span{
+  font-family: 'Quicksand', sans-serif;
+  font-size:50px;
+  transition:.5s;
+  position:absolute;
+  left:40%;
+  top:25%;
+}
+ul{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  margin:0;
+  padding:0;
+  display:flex;
+}
+ul li{
+  list-style:none;
+}
+ul li a{
+  position:relative;
+  width:60px;
+  height:60px;
+  background:#f1f1f1;
+  display:block;
+  text-align:center;
+  margin:0 10px;
+  border-radius:50%;
+  padding:6px;
+  box-sizing:border-box;
+  text-decoration:none;
+  box-shadow:0 10px 15px rgba(0,0,0,0.3);
+  background:linear-gradient(0deg, #ddd, #fff);
+  transition:.5s;
+}
+ul li a:hover{
+    box-shadow:0 2px 5px rgba(0,0,0,0.3);
+}
+ul li a .fab{
+  width:100%;
+  height:100%;
+  display:block;
+  background:linear-gradient(0deg, #fff, #ddd);
+  border-radius:50%;
+  line-height:calc(60px - 6px);
+  font-size:24px;
+  color:#262626;
+  transition:.5s;
+}
+ul li:nth-child(1) a:hover .fab{
+  color:#bc2a8d;
+}
+ul li:nth-child(2) a:hover .fab{
+  color:#708090;
+}
+ul li:nth-child(3) a:hover .fab{
+  color:#00aced;
+}
+ul li:nth-child(4) a:hover .fab{
+  color:#F0B67F;
+}
+ul li:nth-child(5) a:hover .fab{
+  color:#89b0ae;
+}
+
+/*Footer*/
+
+h1{
+  position:absolute;
+  left:85%;
+  top:90%;
+  font-family: 'Quicksand', sans-serif;
+  font-size:15px;
+}
