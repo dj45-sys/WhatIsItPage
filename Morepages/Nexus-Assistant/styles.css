@@ -7,44 +7,44 @@
 
 /*Imports*/
 
-@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap");
 
 /*Universal Styles*/
 
-*{
-    padding: 0;
+* {
+  padding: 0;
 }
 
-body{
-  background-image:url("Img/Background.jpg");
-  background-size:100%;
-  background-repeat:no-repeat;
-  overflow:hidden;
+body {
+  background-image: url("Img/Background.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 /*Container Styles */
 
-.principalogo{
-  height:75px;
+.principalogo {
+  height: 75px;
 }
 
-.container{
-  text-align:center;
+.container {
+  text-align: center;
 }
-h1{
-    color:#ffffff;
-    font-family: 'Caveat Brush', cursive;
+h1 {
+  color: #ffffff;
+  font-family: "Caveat Brush", cursive;
 }
-.logo:hover{
-  opacity:.7;
+.logo:hover {
+  opacity: 0.7;
 }
-.title{
-  font-size:50px;
+.title {
+  font-size: 50px;
 }
-.subcontent{
-  font-size:25px;
+.subcontent {
+  font-size: 25px;
 }
- 
+
 /*Grid*/
 
 .grid-container {
@@ -55,47 +55,47 @@ h1{
 .grid-item {
   font-size: 30px;
   text-align: center;
-  font-family: 'Caveat Brush', cursive;
+  font-family: "Caveat Brush", cursive;
 }
 /*Center Preload*/
 
-.hidden{
-  overflow:hidden;
+.hidden {
+  overflow: hidden;
 }
-.Center{
-  background-color:#000;
+.Center {
+  background-color: #000;
   height: 100vh;
-  display:flex;
-  justify-content:center;
-  align-items:center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*Links*/
-a{
-  color:white;
-  text-decoration:none;
+a {
+  color: white;
+  text-decoration: none;
 }
-a:hover{
-  opacity:.7;
+a:hover {
+  opacity: 0.7;
 }
 a {
-    text-decoration: none;
-    background-image: linear-gradient(currentColor, currentColor);
-    background-position: 0% 100%;
-    background-repeat: no-repeat;
-    background-size: 0% 2px;
-    transition: background-size .3s;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
 }
-a:hover{
-    background-size: 100% 2px;
+a:hover {
+  background-size: 100% 2px;
 }
 
 /*Social Buttons*/
 
-.social-buttons{
-  text-align:center;
+.social-buttons {
+  text-align: center;
 }
-.social-buttons a{
+.social-buttons a {
   display: inline-flex;
   text-decoration: none;
   font-size: 18px;
@@ -108,27 +108,27 @@ a:hover{
   margin: 0 8px;
 }
 
-.social-buttons a:before{
+.social-buttons a:before {
   content: "";
   position: absolute;
   width: 60px;
   height: 60px;
-  background: linear-gradient(45deg,#22a6b3,#30336b);
+  background: linear-gradient(45deg, #22a6b3, #30336b);
   border-radius: 50%;
   z-index: -1;
   transition: 0.3s ease-in;
 }
 
-.social-buttons a:hover::before{
+.social-buttons a:hover::before {
   transform: scale(0);
 }
 
-.social-buttons a i{
+.social-buttons a i {
   transition: 0.3s ease-in;
 }
 
-.social-buttons a:hover i{
-  background: linear-gradient(45deg,#22a6b3,#30336b);
+.social-buttons a:hover i {
+  background: linear-gradient(45deg, #22a6b3, #30336b);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transform: scale(2.2);
